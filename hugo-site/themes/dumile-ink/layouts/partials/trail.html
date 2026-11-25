@@ -1,0 +1,1 @@
+{{ with .Parent }}{{ if not .IsHome }}<p class="trail"><a href="{{ .RelPermalink }}">&lt; {{ .Title | lower }}</a></p>{{ end }}{{ end }}

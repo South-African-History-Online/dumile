@@ -1,0 +1,11 @@
+{{ if .Parent }}
+{{ $siblings := .Parent.Pages.ByWeight }}
+{{ $prev := $siblings.Prev . }}
+{{ $next := $siblings.Next . }}
+{{ if or $prev $next }}
+<nav class="pager" aria-label="More in this section">
+  {{ with $next }}<a class="pager-prev" href="{{ .RelPermalink }}">&lt; {{ .Title | lower }}</a>{{ end }}
+  {{ with $prev }}<a class="pager-next" href="{{ .RelPermalink }}">{{ .Title | lower }} &gt;</a>{{ end }}
+</nav>
+{{ end }}
+{{ end }}

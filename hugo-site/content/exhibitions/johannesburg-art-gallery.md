@@ -1,0 +1,57 @@
+{
+  "title": "The Johannesburg Art Gallery",
+  "weight": 30,
+  "legacy_path": "gallery/gallery_JAG.htm"
+}
+
+## a. Mission statement
+
+The mission of the Johannesburg Art Gallery is to contribute meaningfully to the appreciation of the visual culture in a multi-cultural society.
+
+## b. Profile
+
+The Johannesburg Art Gallery is the major art museum in South Africa. It has extensive collections of 'traditional' and contemporary South African and international art from the 16th century to present. It has been at the forefront of the reassessment of the history of South African art through the presentation of groundbreaking exhibitions and the publication of accompanying catalogues. The Gallery's collections reflect the artistic heritage of all South Africans. The temporary and permanent exhibitions programmes provide access to the visual cultural heritage of this country.
+
+South Africa is a multi-cultural society. One of the greatest challenges facing South Africa is to bring about national reconciliation and harmony, and to foster a sense of pride in all communities. Since the arts are an intrinsic part of any community's culture, art education in this country can create a forum in which previously biased perceptions of race, gender, religion, language and ethnic identity, so prevalent in South Africa, can be challenged. Art education provides access to and develops an awareness of the value of our cultural heritage and the richness of its diversity. Art education is a basic building block upon which the rebuilding of a vibrant artistic and cultural life in South Africa is dependent.
+
+The Johannesburg Art Gallery has a critical role to play in this process. The Gallery's location in Joubert Park is advantageous, because it is on the doorstep of approximately one hundred thousand people who live in the immediate neighbourhood and is within easy access to millions more people in Gauteng.
+
+## c. Background and overview of the collection
+
+The Johannesburg Art Gallery was originally called the Municipal Gallery of Modern Art. It opened to the public in November 1910 at the Transvaal University College (the early premises of the University of the Witwatersrand). The Gallery moved to Joubert Park in November 1915.
+
+The present building housing the Gallery in Joubert Park was designed by Edwin Lutyens (1869 - 1944), a renowned British architect. The foundation stone was laid in 1911 but construction, under the supervision of the South African architect, Robert Howden, was continually delayed and the building was still unfinished at the opening in 1915. In 1940 side wings were added but Lutyens' original plan was never completed. In 1986 extensions designed by Meyer Pienaar and Partners Inc. were added to the north of the Lutyens building, which was also refurbished. The Lutyens building is now a national monument.
+
+Florence Phillips, a Johannesburg socialite married to a mining magnate, established the Gallery's collection using funds donated by her husband, Lionel Phillips, and other mining magnates. The foundation collection was put together by Sir Hugh Lane, a famous Irish art dealer, soon after he had founded a gallery of modern art in Dublin. He is credited with purchasing works by contemporary British artists for the
+
+collections he established in Dublin and Johannesburg before these artists were represented in conservative British institutions. He was also the first person to place French Impressionist paintings in British public institutions.
+
+The collection Lane put together for Johannesburg was displayed in London in 1910 prior to being sent to South Africa. It was considered to be of a uniquely high, even avant-garde, standard. The foundation collection, which included works by Claude Monet, Alfred Sisley, Auguste Rodin, Sir John Everett Millais, Phillip Wilson Steer and Walter Richard Sickert, concentrated on 19th-century and contemporary British and European art. Of 130 catalogued items, about two-thirds were by British artists and the rest were primarily examples of the schools from which these drew their inspiration: French, Dutch, Belgian and Italian. The collection subsequently expanded to include 17th-century Dutch paintings, South African art and modern international paintings and sculpture.
+
+A bequest of over 500 prints from Howard Pim in 1934 formed the nucleus of the Gallery's print collection which now numbers over 3 000 items and includes works by Albrecht Dürer, Rembrandt, Honoré Daumier, James Abbott McNeill Whistler and Henri de Toulouse-Lautrec, as well as contemporary international and South African works and Japanese prints.
+
+The growth of the South African collection is the principal area in which the Gallery has developed since its inauguration, to the point where the South African school of painting and sculpture and, more recently, traditional objects, constitutes the largest aspect of the collection. The Gallery's extensive South African collection encompasses 20th-century art as well as 19th- and 20th-century traditional art from the sub-continent. Large-scale sculptures by South African sculptors are located in the Gallery grounds and in Joubert Park.
+
+The Gallery also has an important collection of European lace and small collections of ceramics, textiles, fans and furniture.
+
+## D. Current status of the Johannesburg Art Gallery
+
+The Johannesburg Art Gallery is going through a revival. Within the last six months  
+visitor figures have doubled with the just under 10 000 visitors in the month of  
+October. The annual visitor figures are the highest in ten years. The Gallery receives  
+between 2000 and 5000 school children a month through guided tours that are linked  
+to the school curriculum. Highly successful exhibitions ranging from impressionists to  
+contemporary South Africa artists are well received and acclaimed in the media. The  
+Gallery regularly loans works from the collections to international museums and  
+institutions profiling the City of Johannesburg as a key cultural destination in Africa.  
+Through the Anglo American Johannesburg Centenary Trust (AAJCT) the Gallery  
+acquires prominent works of South African contemporary artists and Traditional  
+Southern African Art. The Johannesburg Art Gallery is free to the public and offers a  
+range of facilities and programs from the extensive library utilised by scholars,  
+researchers and curators to festivals, workshops, tours, art classes and lectures.
+
+ISSUED BY: THOMAS MOLETE COMMUNICATIONS (PTY) LTD  
+ZENG MSIMANG  
+DATE:  
+ON BEHALF OF: Johannesburg Art Gallery  
+Clive Kellner

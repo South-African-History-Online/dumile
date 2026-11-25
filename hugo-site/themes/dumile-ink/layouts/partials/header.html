@@ -1,0 +1,13 @@
+<header class="masthead">
+  <a class="wordmark" href="{{ "/" | relURL }}" aria-label="Dumile Feni Foundation - home">
+    <img src="{{ "images/site/logo.jpg" | relURL }}" width="241" height="100" alt="Dumile Feni Foundation">
+  </a>
+  <nav class="primary" aria-label="Main">
+    <ul>
+      {{ $current := . }}
+      {{ range site.Sections.ByWeight }}
+      <li><a href="{{ .RelPermalink }}"{{ if or (eq $current .) (.IsAncestor $current) }} aria-current="{{ if eq $current . }}page{{ else }}true{{ end }}"{{ end }}>{{ .Params.menu_title | default .Title | lower }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

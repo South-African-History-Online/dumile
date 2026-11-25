@@ -1,0 +1,4 @@
+name = "Dumile Ink"
+license = "MIT"
+description = "Sketchbook theme for the Dumile Feni archive: hand-lettered titles, ink rules, works mounted on paper."
+min_version = "0.158.0"

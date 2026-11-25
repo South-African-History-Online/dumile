@@ -1,0 +1,12 @@
+{{ define "main" }}
+<section class="section-page">
+  {{ partial "trail.html" . }}
+  <header class="section-head">
+    {{ with .Params.icon }}<img class="roundel" src="{{ . | relURL }}" width="60" height="60" alt="">{{ end }}
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{ with .Params.portrait }}<figure class="portrait"><img src="{{ . | relURL }}" alt="Dumile Feni"></figure>{{ end }}
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  {{ partial "children.html" . }}
+</section>
+{{ end }}

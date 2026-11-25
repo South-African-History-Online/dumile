@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="gallery-page">
+  {{ partial "trail.html" . }}
+  <header class="section-head">
+    {{ with .Params.icon }}<img class="roundel" src="{{ . | relURL }}" width="60" height="60" alt="">{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ if or .Params.author .Params.year }}<p class="byline">{{ with .Params.author }}{{ . }}{{ end }}{{ if and .Params.author .Params.year }} - {{ end }}{{ with .Params.year }}{{ . }}{{ end }}</p>{{ end }}
+  </header>
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  {{ partial "works.html" . }}
+  {{ if .IsPage }}{{ partial "pager.html" . }}{{ end }}
+</section>
+{{ end }}

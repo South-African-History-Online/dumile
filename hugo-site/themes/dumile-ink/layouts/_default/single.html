@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="essay{{ with .Params.layout }} essay--{{ . }}{{ end }}">
+  {{ partial "trail.html" . }}
+  <header class="essay-head">
+    <h1>{{ .Title }}</h1>
+    {{ if or .Params.author .Params.year }}<p class="byline">{{ with .Params.author }}{{ . }}{{ end }}{{ if and .Params.author .Params.year }} - {{ end }}{{ with .Params.year }}{{ . }}{{ end }}</p>{{ end }}
+  </header>
+  {{ with .Params.cover }}<figure class="essay-cover"><img src="{{ . | relURL }}" alt=""></figure>{{ end }}
+  <div class="prose">{{ .Content }}</div>
+  {{ partial "pager.html" . }}
+</article>
+{{ end }}

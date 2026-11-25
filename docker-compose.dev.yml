@@ -1,0 +1,15 @@
+services:
+  hugo:
+    image: ghcr.io/gohugoio/hugo:v0.170.1
+    command: server --bind 0.0.0.0 --buildDrafts --disableFastRender
+    volumes:
+      - ./hugo-site:/project
+    ports:
+      - "1314:1313"
+
+  legacy:
+    image: nginx:alpine
+    volumes:
+      - ./legacy-site:/usr/share/nginx/html:ro
+    ports:
+      - "8889:80"

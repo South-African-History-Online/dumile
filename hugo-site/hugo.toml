@@ -1,0 +1,15 @@
+baseURL = 'https://dumile.sahistory.org.za/'
+locale = 'en-za'
+title = 'Dumile Feni'
+theme = 'dumile-ink'
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term', 'rss']
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  description = "The life and work of Dumile Feni (1942 - 1991), one of Africa's greatest artists of the 20th century. An archive of the Dumile Feni Foundation, maintained by South African History Online."
+  tagline = "Celebrating the life of one of Africa's greatest artists of the 20th century"
+  socialImage = '/images/retrospective/african-guernica.jpg'
+  copyrightNote = 'The images on this site are copyrighted. Please contact SAHO for copyright details.'

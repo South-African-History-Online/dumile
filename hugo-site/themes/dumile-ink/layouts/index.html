@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section class="splash">
+  <img class="splash-mark" src="{{ "images/site/logo-splash.jpg" | relURL }}" width="550" height="141" alt="Welcome to the website of the Dumile Feni Foundation">
+  <p class="splash-tagline">{{ .Params.tagline | lower }}</p>
+</section>
+
+{{ with .Params.feature }}
+<figure class="feature">
+  <a href="{{ "exhibitions/retrospective/" | relURL }}"><img src="{{ .image | relURL }}" width="400" height="376" alt="{{ .title }}"></a>
+  <figcaption>{{ partial "caption.html" . }}</figcaption>
+</figure>
+{{ end }}
+
+<blockquote class="voice">
+  {{ .Content }}
+</blockquote>
+
+<ul class="pinned" aria-label="Selected works">
+  {{ range .Params.featured_works }}
+  <li><a href="{{ "exhibitions/artist-in-exile/" | relURL }}"><img src="{{ . | relURL }}" alt="A work from Artist in Exile" loading="lazy"></a></li>
+  {{ end }}
+</ul>
+
+<nav class="doors" aria-label="Sections">
+  <ul>
+    {{ range site.Sections.ByWeight }}
+    <li>
+      <a href="{{ .RelPermalink }}">
+        {{ with .Params.icon }}<img class="roundel" src="{{ . | relURL }}" width="60" height="60" alt="">{{ end }}
+        <span class="door-title">{{ .Params.menu_title | default .Title | lower }}</span>
+      </a>
+      {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}
