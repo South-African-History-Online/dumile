@@ -8,7 +8,7 @@ Zwelidumile Jeremiah Mgxaji Mslaba "Dumile" Feni (1942 - 1991), South African ar
 
 - Published at `https://www.sahistory.org.za/dumile/` by South African History Online.
 - First version: a static, frame-based site launched on 28 January 2005 alongside the retrospective at the Johannesburg Art Gallery.
-- Later version: a Drupal 7 site at the same address (this repository's history up to August 2023 holds that codebase). Drupal 7 reached end of life and the site was not maintained.
+- Later version: a Drupal 7 site at the same address (that codebase is kept in a separate private archive). Drupal 7 reached end of life and the site was not maintained.
 
 ## Decision
 
@@ -38,9 +38,9 @@ In November 2026 the site was rebuilt as a static Hugo archive, on the same stac
 - SAHO's own backups of the 2018 web server, which hold the original static and Drupal 7 trees.
 - The Internet Archive's captures of `sahistory.org.za/dumile/`.
 
-## Repository visibility
+## Earlier codebase
 
-Keep this repository private. Its history before the rebuild contains the Drupal 7 tree, including a root `settings.php` committed on 2023-08-15. No database dump was found in the history (file-name scan). Before making the repository public, rewrite history to drop the Drupal tree and rotate any credentials that file held.
+This repository's history starts with the 2026 rebuild. The Drupal 7 codebase that served the site before it is kept in a separate private archive repository at South African History Online and is not part of this one.
 
 ## Rights
 
