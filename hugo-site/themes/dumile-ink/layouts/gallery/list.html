@@ -7,7 +7,7 @@
     {{ if or .Params.author .Params.year }}<p class="byline">{{ with .Params.author }}{{ . }}{{ end }}{{ if and .Params.author .Params.year }} - {{ end }}{{ with .Params.year }}{{ . }}{{ end }}</p>{{ end }}
   </header>
   {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
-  {{ partial "works.html" . }}
+  {{ if .Params.works }}{{ partial "works.html" . }}{{ else }}{{ partial "children.html" . }}{{ end }}
   {{ if .IsPage }}{{ partial "pager.html" . }}{{ end }}
 </section>
 {{ end }}
